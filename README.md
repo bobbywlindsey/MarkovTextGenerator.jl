@@ -6,7 +6,7 @@
 ```
 
 ## Usage
-```
+```julia
 # import text
 f = open("mark_twain_books/adventures_of_tom_sawyer.txt")
 corpus = readall(f);
