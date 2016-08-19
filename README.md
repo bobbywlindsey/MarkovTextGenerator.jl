@@ -2,7 +2,7 @@
 
 ## Install
 ```
->
+> Pkg.clone("https://github.com/bobbywlindsey/MarkovTextGenerator.jl.git")
 ```
 
 ## Usage
@@ -38,6 +38,6 @@ unique_symbols = unique(split(corpus, "")) # for chars
 
 num_steps = 200
 markov_chain_text = generate_text(ϕ, num_steps, unique_symbols, ngram, M,
-								  groupby)
+                                  groupby)
 join(markov_chain_text, " ")
 ```
